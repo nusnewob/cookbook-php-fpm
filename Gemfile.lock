@@ -24,6 +24,7 @@ GEM
       treetop (~> 1.4.9)
       uuidtools
       yajl-ruby (~> 1.1)
+    concurrent-ruby (1.1.10)
     erubis (2.7.0)
     excon (0.33.0)
     faraday (0.8.9)
@@ -42,7 +43,8 @@ GEM
       ruby-hmac
     formatador (0.2.4)
     highline (1.6.21)
-    i18n (0.6.9)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     ipaddress (0.8.0)
     json (1.6.1)
     knife-ec2 (0.6.4)
